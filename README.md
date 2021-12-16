@@ -13,17 +13,13 @@
 <p align="center">
 <a href="https://github.com/FG98F"><img title="Author" src="https://img.shields.io/badge/FG98-V4-orange?style=for-the-badge&logo=github"></a>
 </p>
-
-
 <p align="center">
 <a href="https://github.com/FG98F/fgbotv4"><img src="https://img.shields.io/github/repo-size/FG98F/fgbotv4?label=Peso%20repositorio&style=plastic"></a>
-
-
 </p>
 
 
 <details close="close">
-  <summary>HERRAMIENTAS E INSTALACION</summary>
+<summary>HERRAMIENTAS E INSTALACION</summary>
   
 ### Herramientas
 Aplicaciones para ejecutar y facilitar la edición de las necesidades del bot, puede descargar la aplicación a continuación en PlayStore.
@@ -46,8 +42,8 @@ La instalación es bastante simple, siga los pasos a continuación en la Aplicac
 
 ```bash
 > pkg install git
-> git clone https://github.com/FG98F/fgbotv4
-> cd fgbotv4
+> git clone https://github.com/NebberCrack/botv5
+> cd botv5
 > bash install.sh
 > npm start
 ```

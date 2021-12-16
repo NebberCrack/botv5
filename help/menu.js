@@ -19,10 +19,11 @@ exports.help = (prefix,pushname) => {
 
 
 ┌───⊷ *JUEGOS* ⊶
-▢ *${prefix}shipping* 
-▢ *${prefix}pregunta*
 ▢ *${prefix}verdad*
 ▢ *${prefix}reto*
+▢ *${prefix}ppt*
+▢ *${prefix}shipping* 
+▢ *${prefix}pregunta*
 ▢ *${prefix}topgay*
 └──────────────
 
