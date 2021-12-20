@@ -68,9 +68,8 @@ Fg.on('group-participants-update', async (anu) => {
 				}
 				teks = `Hola @${num.split('@')[0]}\nBienvenido/a al Grupo *${mdata.subject}*
 
-▢ *El mejor grupo de amistad!!* 🤗 
-
-▢ *📌 PRESENTARSE :* \n${mdata.desc}
+𝗘𝘀𝘁𝗲 𝗲𝘀 𝘂𝗻 𝗴𝗿𝘂𝗽𝗼 𝗱𝗲 𝗮𝗺𝗶𝘀𝘁𝗮𝗱 🤗 
+\n${mdata.desc}
 `
 				
 				let buff = await getBuffer(ppimg)

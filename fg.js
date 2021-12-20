@@ -113,8 +113,8 @@ const mods = confi.mods
 const ownerName = confi.nombreCreador
 
 //---------𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦---------
-const soportefg = 'https://chat.whatsapp.com/G5sXrkhJ0pb0Tu8nhWLaFK' 
-const instafg = 'https://www.instagram.com/fg98._'
+const soportefg = 'https://www.facebook.com/Webcorp2/' 
+const instafg = 'https://www.instagram.com/wendy_sarahi97'
 
 //-----fakethumb-----
 fakefg = fs.readFileSync('./image/fake.jpg')
@@ -708,13 +708,14 @@ if (!isVerify) return reply(userB(prefix))
 
 ✅ *SE PERMITE*
 
-✔️ Hacer amistad y parejas 💑 
+✔️ Hacer amistad
 ✔️ Videos, música, stickers
 ✔️ Dinámicas: Confesiones, verdad o reto, 💕 Parejas
 
 
 🚫 *NO SE PERMITE* 
 
+❌ Menores de 17
 ❌ Perfiles falsos
 ❌ *Mandar privado sin consentimiento*
 ❌ *Pornografía* ni stickers inadecuados
@@ -725,7 +726,7 @@ if (!isVerify) return reply(userB(prefix))
 
 
 *Consecuencias al romper las reglas* 
-Te eliminaremos y te reportaremos si hace falta 🔫💀 ESTAN AVISADOS `
+Te eliminaremos y te reportaremos si hace falta 🔫💀 ESTAS AVISADO `
 reply(reglasbot)
 break
 
