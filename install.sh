@@ -14,5 +14,5 @@ wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-oc
 npm i imgbb-uploader
 npm i
 
-echo "✅ Se han instalado todas las dependencias, ejecute el comando \"npm start\" para iniciar el bot By: FG98💎"
+echo "✅ Se han instalado todas las dependencias, ejecute el comando \"npm start\" para iniciar el bot By: NebberCracker💎"
 

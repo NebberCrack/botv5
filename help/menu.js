@@ -90,7 +90,6 @@ exports.help = (prefix,pushname) => {
 
 ┌───⊷ *GRUPO* ⊶
 ☠︎︎ *${prefix}group* _(Close/Open)_
-▢ *${prefix}link*
 ▢ *${prefix}online*
 ☠︎︎ *${prefix}kick*
 ☠︎︎ *${prefix}okick* _(reply msg)_

@@ -673,28 +673,7 @@ infobot =`⊷ *BOT*
 ▢ Velocidad : *${latensi2.toFixed(4)}*
 ▢ Tiempo Ejecucion : *${kyun(runtime2)}*
 ▢ Version Wha : ${Fg.user.phone.wa_version}
-▢ Grupo del Bot : 
-*${soportefg}*
-
-⊷ *AGRADECIMIENTOS* ⊶
-▢ *FG98* :
-@${fgnum.split("@")[0]}
-_*Diseñador del bot*_
-_*Fb*_ : facebook.com/fg98A
-_*Fb*_ : facebook.com/fg98ff
-▢ *CRISS* :
-@${crisnum.split("@")[0]}
-_*Ayudante de alguno de los camandos*_
-_*Ig*_ : instagram.com/sayurizuniga3
-▢ *Mi Gato* :
-_*:)*_
-
-▢ Instagram :
-https://www.instagram.com/fg98._
-▢ BASE :
-https://github.com/FG98F/fgbotv4
-▢ DUEÑO :
-https://github.com/FG98F`
+`
 mentions(infobot, [fgnum, crisnum], true)
 break
 
@@ -1205,7 +1184,7 @@ case 'enlinea':
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
     
 			    let online = [...Object.keys(Fg.chats.get(ido).presences), Fg.user.jid]
-			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*©POWERED BY Dylux ┃ ᴮᴼᵀ*`, text, { quoted: mek,
+			    Fg.sendMessage(from, 'En linea:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n` + `\n*© BY NebberCracker┃ ᴮᴼᵀ*`, text, { quoted: mek,
   			  contextInfo: { mentionedJid: online }
     
 			    })
