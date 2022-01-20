@@ -110,10 +110,10 @@ Escribe */reglas* para ver las reglas
 				try {
 					ppimg = await Fg.getProfilePicture(`${num.split('@')[0]}@c.us`)
 				} catch {
-					
+					ppimg = ''
 				}
 				teks = ``
-				let buff = await getBuffer(ppimg)
+				
 				Fg.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
