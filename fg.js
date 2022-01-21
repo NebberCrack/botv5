@@ -1474,7 +1474,7 @@ anug = await imgbb2("20a14861e4f7591f3dc52649cb07ae02", './stickgay.jpeg')
 txtg = `${anug.display_url}`
 sgay = await getBuffer(`https://pecundang.herokuapp.com/api/gay?url=${txtg}`)
 const bas642 = `data:image/jpeg;base64,${sgay.toString('base64')}`
-var mantap2 = await convertSticker(bas642, `💎 @fg98._`, `🔮 NebberCracker ┃ ᴮᴼᵀ`)
+var mantap2 = await convertSticker(bas642, `💎 NebberCracker`, `🔮 NebberCracker ┃ ᴮᴼᵀ`)
 var imageBuffer2 = new Buffer.from(mantap2, 'base64');
 Fg.sendMessage(from, imageBuffer2, sticker, {quoted: mek})
 fs.unlinkSync('./stickgay.jpeg')
@@ -1550,7 +1550,7 @@ anuc = await imgbb2c("20a14861e4f7591f3dc52649cb07ae02", './stickc.jpeg')
 txtc = `${anuc.display_url}`
 sc = await getBuffer(`https://pecundang.herokuapp.com/api/jail?url=${txtc}`)
 const bas642c = `data:image/jpeg;base64,${sc.toString('base64')}`
-var mantap2c = await convertSticker(bas642c, `💎 @fg98._`, `🔮 DyLux ┃ ᴮᴼᵀ`)
+var mantap2c = await convertSticker(bas642c, `NebberCracker`, `NebberCracker`)
 var imageBuffer2c = new Buffer.from(mantap2c, 'base64');
 Fg.sendMessage(from, imageBuffer2c, sticker, {quoted: mek})
 fs.unlinkSync('./stickc.jpeg')
@@ -2437,8 +2437,8 @@ const dlfile1 = await Fg.downloadMediaMessage(encmedia1)
 const bas641 = `data:image/jpeg;base64,${dlfile1.toString('base64')}`
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `🔮 DyLux ┃ ᴮᴼᵀ `
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @fg98._`
+satu = anu[0] !== '' ? anu[0] : `NebberCracker`
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `NebberCracker`
 
 var mantap1 = await convertSticker(bas641, `${dua}`, `${satu}`)
 var st = new Buffer.from(mantap1, 'base64');
@@ -2494,8 +2494,8 @@ if (!isVerify) return reply(userB(prefix))
   if (!isQuotedSticker) return reply(`✳️ Responde a un sticker\n\n*USO DEL COMAMDO*\n*${prefix + command}* Nombre|Autor\n\n📌Ejemplo *${prefix + command}* Memes|FG98`);
 const encmediats = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 kls = args.join(" ").split("|");
-pack = kls[0] !== "" ? kls[0] : `🔮 DyLux ┃ ᴮᴼᵀ`;
-author2 = typeof kls[1] !== "undefined" ? kls[1] : `💎 @fg98._`;
+pack = kls[0] !== "" ? kls[0] : `NebberCracker`;
+author2 = typeof kls[1] !== "undefined" ? kls[1] : `NebberCracker`;
 
 const dlfile = await Fg.downloadMediaMessage(encmediats)
 
