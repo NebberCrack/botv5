@@ -567,7 +567,7 @@ console.log(color(time, 'magenta'), color(moment.tz('America/La_Paz').format('HH
     
     //-------𝗙𝗨𝗡𝗖𝗜𝗢́𝗡 𝗔𝗡𝗧𝗜 𝗟𝗜𝗡𝗞 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣------
 		if (isGroup && isAntilink) {
-if (budy.includes("://chat.whatsapp.com/")) {
+if (budy.includes("://chat.whatsapp.com/") or ("://instagram.com/")  ) {
 if (isGroupAdmins && isOwner) return
 if (!isBotGroupAdmins) return reply('🤨 Por suerte no soy  admin, asi que no te expulsare')
 linkgp = await Fg.groupInviteCode (from)
