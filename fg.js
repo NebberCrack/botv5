@@ -683,29 +683,24 @@ case 'reglas':
 case 'reglasbot':
 if (!isVerify) return reply(userB(prefix))
 	reglasbot = `  ≡ *REGLAS DEL GRUPO*
-
-
 ✅ *SE PERMITE*
 
-✔️ Hacer amistad
+✔️ Hacer amistad 
 ✔️ Videos, música, stickers
 ✔️ Dinámicas: Confesiones, verdad o reto, 💕 Parejas
-
 
 🚫 *NO SE PERMITE* 
 
 ❌ Menores de 17
 ❌ Perfiles falsos
+❌ Fotos sin ropa o semidesnudos
 ❌ *Mandar privado sin consentimiento*
-❌ *Pornografía* ni stickers inadecuados
-❌ Gore
-❌ Urgid@s
-❌ Mirones 👀
+❌ Pornografía, stickers inadecuados, gore
+❌ Urgid@s, mirones 👀
 ❌ Enlaces de otros grupos🦠
 
-
-*Consecuencias al romper las reglas* 
-Te eliminaremos y te reportaremos si hace falta 🔫💀 ESTAS AVISADO `
+Escribe: /menu para ver el menu del bot
+*Si te pasas de list@* balazo 🔫💀 y pal río `
 reply(reglasbot)
 break
 

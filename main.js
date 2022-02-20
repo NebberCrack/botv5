@@ -69,8 +69,7 @@ Fg.on('group-participants-update', async (anu) => {
 				teks = `Hola @${num.split('@')[0]}\nBienvenido/a al Grupo *${mdata.subject}*
 
 \n${mdata.desc}
-
-Escribe */reglas* para ver las reglas
+Escribe: */verify* para ver las reglas
 `
 				
 				let buff = await getBuffer(ppimg)
