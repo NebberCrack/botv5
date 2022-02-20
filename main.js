@@ -67,10 +67,8 @@ Fg.on('group-participants-update', async (anu) => {
 					ppimg = 'https://i.ibb.co/dkJb2Nd/noprofile.jpg'
 				}
 				teks = `Hola @${num.split('@')[0]}\nBienvenido/a al Grupo *${mdata.subject}*
-
 \n${mdata.desc}
-Escribe: */verify* para ver las reglas
-`
+Escribe: */verify* para verificarte`
 				
 				let buff = await getBuffer(ppimg)
 				Fg.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
